@@ -1,0 +1,40 @@
+div .container { 
+	width: 1024px;
+	margin: 0 auto;
+
+}
+#main-bio {
+	float:left;
+	/*add to first section tag*/
+}
+#contact-info {
+	float:left;
+	width: 30%;
+	/*add to second section tag */
+}
+#bio-image {
+	float:left;
+	/*use for bio image*/
+}
+body{
+	background-color: #efeee7;
+	font-family: "Georgia",Times New Roman,Times,serif;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #333333;
+}
+h1 {
+	background-color: #eee;
+	font-size: 28px;
+	padding: ;
+	margin: ;
+}
+h2 {
+	font-size: 24px;
+}
+a {
+	color: #d21034;
+}
