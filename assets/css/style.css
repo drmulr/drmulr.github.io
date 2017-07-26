@@ -11,42 +11,55 @@ p {
 h1, h2, h3, h4 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
-	margin-left: 10px;
+}
+
+h2 {
+    padding: 20px 0;
+    border-bottom: 2px solid;
+    border-color: #cccccc;
+    font-size: 1.5em;
+}
+h3 {
+	margin-left: 20px;
+    padding: 20px 0;
+    border-bottom: 2px solid;
+    border-color: #f2f2f2;
+    font-size: 1em;
+}
+
+#fullWrap {
+	background-image: url("../images/concrete-texture.png");
+    background-repeat: repeat-x;
 }
 header {
 	width: 100%
 	margin: auto;
 	clear: both;
 	background-color: ffffff;
-	border: 2px;
-	border-color: #cccccc;
+    border-bottom: 2px solid;
+    border-color: #cccccc;
 }
-
-
 
 #headerDiv {
-	background-color: #ffffff;
-	width: 960px;
-	clear: both;
-	overflow: auto;
-	margin: auto;
+    background-color: #ffffff;
+    width: 960px;
+    clear: both;
+    overflow: auto;
+    margin: auto;
 }
-	#nameSquare {
-    background-color: #4aaaa5;
+	#nameSquare #danielMuller{
+	background-color: #4aaaa5;
     float: left;
-    padding: 30px;
+    padding: 24px;
     margin-left: 10px;
+    font-size: 1.5em;
+    color: white;
 	}
-	#danielMuller {
-		color: white;
-		letter-spacing: 3px;
 
-	}
 	#nav {
 		background-color: fff;
 		float: right;
-		padding: 30px;
-    	margin-right: 10px;	
+		padding: 25px 0;
 	}
 	#nav li {
 		display: inline;
@@ -54,27 +67,24 @@ header {
 	}
 
 
-a:link {
-    color: gray;
-    text-decoration: none;
-}
-a:visited {
-    color: gray;
-    text-decoration: none;
-}
-a:hover {
-    color: lightgray;
-    text-decoration: none;
-}
-a:active {
-    color: gray;
-    text-decoration: none;
-}
+				a:link {
+				    color: gray;
+				    text-decoration: none;
+				}
+				a:visited {
+				    color: gray;
+				    text-decoration: none;
+				}
+				a:hover {
+				    color: lightgray;
+				    text-decoration: none;
+				}
+				a:active {
+				    color: gray;
+				    text-decoration: none;
+				}
 
-#fullWrap {
-	background-image: url("../images/concrete-texture.png");
-    background-repeat: repeat-x;
-}
+
 
 
 /*Begin Main Content*/
@@ -91,13 +101,12 @@ a:active {
 	margin: auto;
 }
 	#aboutMe {
-		background-color: white;
-		overflow: auto;
-		width: 650px;
-		float: left;
-		margin: 30px 10px 30px 10px;
-		padding-top: 30px;
-		padding-bottom: 30px;
+	    background-color: white;
+	    overflow: auto;
+	    width: 610px;
+	    float: left;
+	    margin: 30px 10px 30px 10px;
+	    padding: 0 20px;
 	}
 	p .bodyText {
 		padding-right:10px;
@@ -108,8 +117,7 @@ a:active {
 		width: 270px;
 		float: right;
 		margin: 30px 10px 30px 10px;
-		padding-top: 30px;
-		padding-bottom: 30px;
+
 	}
 
 	.smLogo {
@@ -129,7 +137,7 @@ a:active {
 	width: 200px;
     border: 1px solid #dddddd;
     float: left;
-    margin: 0 1em;
+
 
 }
 
