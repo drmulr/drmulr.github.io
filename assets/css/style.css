@@ -8,13 +8,11 @@ p {
     color: #777777;
     padding: 20px 0;
     line-height: 1.5em;
-
 }
 h1, h2, h3, h4 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 }
-
 h2 {
     padding: 20px 0;
     border-bottom: 2px solid;
@@ -28,7 +26,6 @@ h3 {
     border-color: #f2f2f2;
     font-size: 1em;
 }
-
 #fullWrap {
 	background-image: url("../images/concrete-texture.png");
 	background-repeat: repeat;
@@ -43,7 +40,6 @@ header {
     border-bottom: 2px solid;
     border-color: #cccccc;
 }
-
 #headerDiv {
     background-color: #ffffff;
     width: 960px;
@@ -59,7 +55,6 @@ header {
     font-size: 1.5em;
     color: white;
 	}
-
 	#nav {
 		background-color: fff;
 		float: right;
