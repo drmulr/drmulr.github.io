@@ -1,0 +1,34 @@
+input {
+  width: 375px;
+  display: block;
+  border: 1px solid #999;
+  height: 25px;
+}
+
+form {
+	color: gray;
+	margin-top: 20px;
+}
+
+
+span {
+margin-top: 10px;
+
+}
+
+#nameField {
+
+}
+#emailField {
+
+}
+#messageField {
+	height: 200px;
+
+}
+#submitButton {
+	background-color: #4aaaa5;
+	width: 100px;
+	color: white;
+
+}
