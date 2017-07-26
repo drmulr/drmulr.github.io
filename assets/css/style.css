@@ -5,7 +5,9 @@ body {
 	font-size: 18px;
 }
 p {
-	color: #777777;
+    color: #777777;
+    padding: 20px 0;
+    line-height: 1.5em;
 
 }
 h1, h2, h3, h4 {
@@ -29,7 +31,9 @@ h3 {
 
 #fullWrap {
 	background-image: url("../images/concrete-texture.png");
-    background-repeat: repeat-x;
+	background-repeat: repeat;
+	border-bottom: 5px solid;
+    border-color: #4aaaa5;
 }
 header {
 	width: 100%
@@ -93,7 +97,7 @@ header {
 #mainContent {
 	background-color: #ffffff;
 	background-image: url("../images/concrete-texture.png");
-    background-repeat: repeat-x;
+    background-repeat: repeat;
 	overflow: auto;
 	clear: both;
 	width: 960px;
@@ -134,9 +138,10 @@ header {
 	color: #ffffff;
 }
 #headshot {
-	width: 200px;
+    width: 200px;
     border: 1px solid #dddddd;
     float: left;
+    margin: 20px 20px 20px 0;
 
 
 }
