@@ -12,18 +12,20 @@ form {
 
 
 span {
-margin-top: 10px;
+margin: 10px 0;
 
 }
 
 #nameField {
+margin: 10px 0;
 
 }
 #emailField {
-
+margin: 10px 0;
 }
 #messageField {
 	height: 200px;
+	margin: 10px 0;
 
 }
 #submitButton {

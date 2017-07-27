@@ -123,7 +123,7 @@ header {
 	.smLogo {
 		width: 50px;
 		float: left;
-		margin: 10px 20px;
+		margin: 30px 20px;
 	}
 #footer {
     background-color: #666666;
@@ -140,5 +140,10 @@ header {
     float: left;
     margin: 20px 20px 20px 0;
 }
-
+#photoDiv {
+	
+}
+.photo {
+	padding: 30px 0;
+}
 
