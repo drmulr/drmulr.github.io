@@ -55,7 +55,7 @@ header {
     margin-left: 10px;
     font-size: 1.5em;
     color: white;
-	} 
+	}
 	#nav {
 		background-color: fff;
 		float: right;
@@ -140,10 +140,25 @@ header {
     float: left;
     margin: 20px 20px 20px 0;
 }
+
+/*Portfolio Page*/
+
+
 #photoDiv {
-	
+
 }
 .photo {
-	padding: 30px 0;
+	float: left;
+	width: 250px;
+	margin: 25px 25px;
 }
-
+.picLabel {
+    float: left;
+    font-size: 1.5em;
+    color: white;
+}
+.label {
+	color: white;
+	positioning: absolute;
+	padding-top: 500px;
+}
