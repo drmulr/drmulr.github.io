@@ -154,8 +154,8 @@ header {
 }
 .picLabel {
     float: left;
-    font-size: 1.5em;
-    color: white;
+    font-size: 16px;
+    font-color: lightgray;
 }
 .label {
 	color: white;
