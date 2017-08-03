@@ -141,8 +141,8 @@ header {
     margin: 20px 20px 20px 0;
 }
 
-/*Portfolio Page*/
 
+/*Portfolio Page*/
 
 #photoDiv {
 
@@ -162,3 +162,91 @@ header {
 	positioning: absolute;
 	padding-top: 10px;
 }
+
+/*End Portfolio Page Code*/
+
+
+
+
+@media screen and (max-width: 980px) {
+  /* The body's bg color will be #333 */
+  body {
+
+  }
+  .smLogo {
+    margin-left: 20px;
+  }
+  /* The wrapper's width will be 600px */
+  #aboutMe {
+    background-color: white;
+    overflow: auto;
+    width: 80%;
+    float: left;
+    margin: 30px 10px 30px 10px;
+    padding: 0 20px;
+  }
+  #connect {
+  	float: left;
+  	width: 80%;
+  }
+  #navLinks {
+  	width: 100%;
+  }
+  header {
+  	position:static;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  /* The wrapper's width will be 600px */
+  #mainContent, #headerDiv {
+    width: 500px;
+  }
+  #connect, #navLinks {
+  	float: left;
+  	width: 80%;
+  }
+}
+
+
+
+@media screen and (max-width: 640px) {
+  /* The body's bg color will be #333 */
+  body {
+  }
+  /* The wrapper's width will be 600px */
+  #connect {
+  	float: left;
+  }
+  #navLinks {
+  	width: 100%;
+  }
+  header {
+  	position:static;
+  }
+}
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }*/
