@@ -81,6 +81,9 @@ a:active {
 		color: gray;
 		text-decoration: none;
 }
+ul {
+	margin-bottom: 0;
+}
 
 /*Begin Main Content*/
 
